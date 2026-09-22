@@ -1,7 +1,7 @@
 {
-  "name": "fastpack-ts",
+  "name": "fastpack-v0",
   "version": "0.1.0",
-  "description": "FastPack v0 TypeScript reference implementation (normative). Original lossless universal compression engine.",
+  "description": "Lossless universal compression engine for JavaScript and the browser. Original pipeline: delta/RLE transforms, LZ matcher, adaptive range coder. TypeScript reference implementation of FastPack v0.",
   "type": "module",
   "main": "dist/src/api.js",
   "types": "dist/src/api.d.ts",
