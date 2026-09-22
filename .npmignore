@@ -1,0 +1,29 @@
+# --- Source TypeScript (compiled output in dist/ is enough) ---
+src/
+
+# --- Tests (not needed by npm consumers) ---
+test/
+dist/test/
+
+# --- Benchmarks ---
+bench/
+dist/bench/
+
+# --- Build scripts and dev tools ---
+scripts/
+node/
+gen-golden.mjs
+fp.mjs
+
+# --- TypeScript config ---
+tsconfig.json
+*.tsbuildinfo
+
+# --- Node dev dependencies ---
+node_modules/
+
+# --- Source maps (optional: remove if you want to keep them) ---
+# dist/**/*.js.map
+
+# --- Misc ---
+*.log
