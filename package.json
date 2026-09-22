@@ -1,5 +1,5 @@
 {
-  "name": "fastpack-v0",
+  "name": "@slicedata/fastpack-v0",
   "version": "0.1.0",
   "description": "Lossless universal compression engine for JavaScript and the browser. Original pipeline: delta/RLE transforms, LZ matcher, adaptive range coder. TypeScript reference implementation of FastPack v0.",
   "type": "module",
